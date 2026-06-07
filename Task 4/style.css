@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    background-color: #121212;
+}
+
+div {
+    padding: 15px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+div:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
